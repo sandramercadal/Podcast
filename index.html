@@ -77,9 +77,6 @@ body, html{
       padding: 200px;
     }
 
-    button {
-    
-    }
 .career-break {
      
      text-align: center;
@@ -121,6 +118,13 @@ body, html{
   text-align: justify;
   font-family: "Quicksand", sans-serif;
  }
+
+ .Inspire h1 {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 56px;
+    margin-top: 30px;
+ }
  .podcasts {
       display: flex;
       justify-content: space-evenly;
@@ -130,12 +134,17 @@ body, html{
       margin-top: 10px;
   padding: 40px;
   background-color: ;
-    }
-
-
- .about {
-  background-color: aqua;
+  
 }
+
+.iframe-container {
+  display: flex; 
+justify-content: center;
+grid-gap: 20px;
+
+
+}
+
 </style>
 
 
@@ -147,7 +156,7 @@ body, html{
     <header>
       <p>Podcast Series 🎧</p>
       <h1>Return to work with a bang</h1>
-      <button id="button" class="mt-5">Listen</button>
+      
     </header>
     </div>
 <script src="index.js"></script>
@@ -166,38 +175,26 @@ body, html{
         and devious Semikoli, but the Little Blind Text didn’t listen.</p>
       </div>
     </div>
-
+<div class="Inspire">
+  <h1>The best podcasts</h1>
     </section>
         <div class="row">
           <section class="podcasts">
+             <div class="iframe-container">
             <iframe
               style="border-radius: 12px"
-              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
             <iframe
               style="border-radius: 12px"
-              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
             <iframe
               style="border-radius: 12px"
-              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
            
           </section>
         </div>
-
-
-
-
-        <p class="about">
-          <br><em> About me ~</em> I started my coding journey in the summer of 2023 and have definitely been bitten by
-          the coding bug!
-          I joined this challenge as it sounded fun and a really good way to practise.
-          Joining has been rewarding, carving
-          out 'me' time amid the busyness of work and caring responsibilities.
-          While navigating through, there were ideas I wanted to bring to life but I didn't have the skills, 
-          and there's so much more to learn. A heartfelt thank you to 
-          <a href="https://www.shecodes.io/" target="_blank"> <strong><em>❤️SheCodes❤️</em></strong></a> on this
-          thrilling adventure! 
-        </p><br>
-
+</div>
+</div>
 </html>
