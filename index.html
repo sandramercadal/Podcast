@@ -27,6 +27,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
 </head>
 
 <style>
@@ -58,22 +63,25 @@ body, html{
       line-height: 1;
       margin: 0;
       letter-spacing: 4px;
-      font-family: "Barlow";  
-      font-weight: 700;  
+   font-family: "Quicksand", sans-serif;
+      font-weight: 500;  
      
     }
     
     .hero p {
       color: white;
       text-align: center;
-      font-size: 28px;
+      font-size: 30px;
       margin: 0;
       font-family: "Architects Daughter", cursive;
-      padding: 260px;
+      padding: 200px;
     }
 
+    button {
+    
+    }
 .career-break {
-     font-family: "Barlow";
+     
      text-align: center;
      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/144/371/original/Screenshot_2024-09-20_at_10.52.04.png?1726826772");
@@ -92,25 +100,39 @@ body, html{
   opacity: 0.6;
   margin-right: 50px;
   margin-left: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .career-break-text h1 {
+  animation-name: fadeIn;
+  animation-duration: 6s;
   font-size: 37px;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Quicksand", sans-serif;
   color: #5160a0;
   font-weight: bolder;
   
  }
 .career-break-text h2 {
-  font-size: 24px;
-  font-family: "Architects Daughter", cursive;
+   font-size: 24px;
+   font-family: "Quicksand", sans-serif;
  }
 .career-break-text p {
   font-size: 17px;
   text-align: justify;
-  font-family: "Barlow"; 
+  font-family: "Quicksand", sans-serif;
  }
- 
+ .podcasts {
+      display: flex;
+      justify-content: space-evenly;
+      width: ;
+      height: ;
+      margin: 0 auto;
+      margin-top: 10px;
+  padding: 40px;
+  background-color: ;
+    }
+
+
  .about {
   background-color: aqua;
 }
@@ -133,9 +155,9 @@ body, html{
  <div class ="career-break">
   <div class="career-break-text">
     <H1>Have you taken a career break? You are not alone!</H1>
-    <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia. </h2>
+    <h2>Inspire your return with our selection of the best podcasts </h2>
 <br>
-    <p> What is a career break? <br>
+    <p> So what is a career break? <br>
         An intentional pause, a break from ...Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. 
         Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and 
         supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful 
@@ -144,6 +166,27 @@ body, html{
         and devious Semikoli, but the Little Blind Text didn’t listen.</p>
       </div>
     </div>
+
+    </section>
+        <div class="row">
+          <section class="podcasts">
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+            
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+            
+            <iframe
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZUBFO49rJNI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>"
+           
+          </section>
+        </div>
+
+
+
 
         <p class="about">
           <br><em> About me ~</em> I started my coding journey in the summer of 2023 and have definitely been bitten by
