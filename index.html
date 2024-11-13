@@ -202,11 +202,9 @@ body, html{
 }
 
 .iframe-container {
-  display: flex; 
+   display: flex; 
 justify-content: center;
 grid-gap: 20px;
-
-
 }
 
 .percentage {
@@ -302,6 +300,12 @@ margin-top: 15px;
 a {
   color: #fffafa;
 }
+.stats a {
+  font-size: 16px;
+}
+.stats {
+  font-size: 16px;
+}
 footer {
   background-color: #fffafa;
 }
@@ -314,6 +318,7 @@ footer h1 {
 color: #072044;
  font-family: "Quicksand", sans-serif;
  font-size: 20px;
+ margin-left: 10px;
 }
 
 footer p {
@@ -325,6 +330,56 @@ font-weight: 400;
 padding: 40px;
 }
 
+
+
+@media (max-width: 960px) {
+
+  .hero h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+    .hero p {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+   .career-break {
+    padding: 0;
+    margin: 0; 
+  }
+    .career-break h1 {
+    font-size: 25px;
+  }
+
+  .career-break p {
+    font-size: 12px;
+  }
+
+.Inspire h1 {
+   font-size: 25px;
+}
+
+.Inspire p {
+   font-size: 18px;
+}
+.footer text-lg-start {
+   font-size: 12px;
+}
+
+.about-section {
+   font-size: 14px;
+}
+.stats {
+  font-size: 14px;
+}
+.stats a {
+  font-size: 14px;
+}
+
+}
 </style>
 
 
@@ -498,7 +553,7 @@ padding: 40px;
      
 
       <footer>
-        <h1 class="text-lg-start"> * Stats taken from the <a href="https://careerreturners.com/career-returners-indicator-2024/" 
+        <h1 class="stats"> * Stats taken from the <a href="https://careerreturners.com/career-returners-indicator-2024/" 
                 target="_blank">2024 Career Returners Indicator</a></h1>
           <p>This landing page is best viewed on a medium to large device. 
                 <br>I hope this website inspires your re-launch 🧡 The next bit of your life is for you. 
@@ -506,15 +561,12 @@ padding: 40px;
                 <br>
                 ~ <strong> Coded by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
                 target="_blank">Sandra Mercadal
-              </a>using HTML5 & CSS. <strong>Open-sourced </strong>on <a href="https://github.com/sandramercadal/Podcasts" 
+              </a>using HTML5 & CSS. <strong>Open-sourced </strong>on <a href="https://github.com/sandramercadal/Podcast" 
               target="_blank"><strong>Github</strong></a> ~
             </p>
-          </footer>
-
-
               </div>
               </div>
-              </div>
+              </div> </footer>
 </body>
   
               <script src="index.js"></script>             
