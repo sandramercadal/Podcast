@@ -54,7 +54,7 @@ body, html{
       line-height: 1;
       margin: 0;
       letter-spacing: 4px;
-   font-family: "Quicksand", sans-serif;
+      font-family: "Quicksand", sans-serif;
       font-weight: 500;  
      
     }
@@ -93,26 +93,22 @@ body, html{
   }
 
   @keyframes flicker {
-
     63%,
     63.999% {
       opacity: 0.1;
     }
   }
 
-
 .career-break-text {
   background-color: #ffffffee;
   margin: 0 auto;
   padding: 20px 20px;
   border-radius: 5px;
-  opacity: 0.6;
+  opacity: 0.7;
   margin-right: 50px;
   margin-left: 50px;
   font-family: "Quicksand", sans-serif;
 }
-
-
 .career-break-text h1 {
   animation-name: fadeIn;
   animation-duration: 6s;
@@ -121,15 +117,13 @@ body, html{
   color: #5160a0;
   font-weight: bolder;
   margin-top: 20px;
-  
  }
 .career-break-text p {
    font-size: 16px;
    font-family: "Quicksand", sans-serif;
    text-align: justify;
-    margin: 0px;
+  margin: 0px;
    padding: 0px;
-   
  }
  .career-break-text h3 {
    font-size: 20px;
@@ -137,9 +131,8 @@ body, html{
    text-align: left ;
    padding-top: 20px;
    color: #072044;
-   opacity: 0.5;
+   opacity: 0.9;
    margin-top: 30px;
-  
  }
 
  .career-break-text h4 {
@@ -155,12 +148,11 @@ body, html{
   text-align: center;
   font-family: "Quicksand", sans-serif;
   padding-bottom: 15px;
-
  }
 
 .case-study h1 {
-   font-family: "Quicksand", sans-serif;
-     color: #5160a0;
+  font-family: "Quicksand", sans-serif;
+  color: #5160a0;
 }
 
  .Inspire h1 {
@@ -174,7 +166,7 @@ body, html{
     text-align: center;
     font-size: 40px;
     margin-top: 30px;
-      color: #5160a0;
+    color: #5160a0;
  }
 
    .Inspire p {
@@ -182,29 +174,25 @@ body, html{
     text-align: center;
     font-size: 30px;
     padding-top: 40px;
-
  }
+
 .Inspire {
   background-color: #fffafa;
-
 }
 
  .podcasts {
-      display: flex;
+      flex: 1 1 300px;
       justify-content: space-evenly;
-      width: ;
-      height: ;
-      margin: 0 auto;
-      margin-top: 10px;
-  padding: 10px;
-  background-color: ;
-  
+      margin: 16px;
 }
 
 .iframe-container {
-   display: flex; 
-justify-content: center;
-grid-gap: 20px;
+width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
 }
 
 .percentage {
@@ -212,22 +200,16 @@ grid-gap: 20px;
   font-size: 40px;
   padding-right: 5%;
   padding-bottom: 10%;
-
 }
 
 .text {
   color: black;
   font-size: 14px;
- 
- 
- 
 }
 
 .surveyimg {
 margin-top: 15px;
-
 }
-
 
 .case-study {
   padding-top: 30px;
@@ -249,31 +231,26 @@ margin-top: 15px;
   color: white;
   font-size: 19px;
   text-align: center;
- font-family: "Architects Daughter";
+  font-family: "Architects Daughter";
   line-height:  ;
 }
-
 
 .Casestudy img {
   border-radius: 9px;
   filter:  grayscale(100%);
   display: block;
   margin: 0 auto;
-
 }
-
 
 .about-section {
   padding: 10px 40px;
-
 }
 
 .about-section-content {
-    font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: white;
   text-align: justify;
 }
-
 
 .about-section-content p {
   font-family: "Quicksand", sans-serif;
@@ -287,7 +264,6 @@ margin-top: 15px;
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
   font-size: 19px;
- 
 }
 
 .sandra-pic {
@@ -295,8 +271,8 @@ margin-top: 15px;
   border-radius: 30px 0px 30px 0px;
   width: 490px;
   margin: 0;
-  
 }
+
 a {
   color: #fffafa;
 }
@@ -330,8 +306,6 @@ font-weight: 400;
 padding: 40px;
 }
 
-
-
 @media (max-width: 960px) {
 
   .hero h1 {
@@ -347,15 +321,17 @@ padding: 40px;
   }
 
    .career-break {
-    padding: 0;
-    margin: 0; 
+    padding: 10px;
   }
     .career-break h1 {
     font-size: 25px;
   }
 
   .career-break p {
-    font-size: 12px;
+    font-size: 16px;
+  }
+ .career-break h3 {
+    font-size: 17px;
   }
 
 .Inspire h1 {
@@ -365,12 +341,15 @@ padding: 40px;
 .Inspire p {
    font-size: 18px;
 }
+.podcasts {
+  margin: 3px;
+}
 .footer text-lg-start {
    font-size: 12px;
 }
 
 .about-section {
-   font-size: 14px;
+   font-size: 16px;
 }
 .stats {
   font-size: 14px;
@@ -381,9 +360,6 @@ padding: 40px;
 
 }
 </style>
-
-
-
 
 <body>
 
@@ -397,18 +373,15 @@ padding: 40px;
     </header>
     </div>
     
-    
  <section class ="career-break" id="start">
   <div class="career-break-text" >
       <h2>🎧 Return To Work Podcast Collection 🎧</h2>
     <h1>Have you taken a career break and are now seeking a return to fulfilling work?<br></h1>
-   
-
     <h4 class="neon" data-text="U">You are 
     <span class="flicker-fast"> not</span><span class=> alone!</span></h4>
  
 <br>
-    <h3> What is a career break? </h3>
+    <h3> <strong>What is a career break? </h3></strong>
        <p>Many professionals decide to take an intentional break from their careers at some point. Whether by choice or circumstance, it often comes with a 
         complex mix of emotions 
         and implications. 
@@ -467,17 +440,16 @@ padding: 40px;
                     <div class="row mb-5">
                         <section class="podcasts">
                             <div class="iframe-container">
+                            <iframe 
+                              style="border-radius: 12px"
+                              src="https://open.spotify.com/embed/episode/4FI67BvLP36nvcRYRleiiF?si=25a3ce3c1bed4800" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                                    </div>
 
-                    <iframe 
-                      style="border-radius: 12px"
-                      src="https://open.spotify.com/embed/episode/4FI67BvLP36nvcRYRleiiF?si=25a3ce3c1bed4800" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  
-                    <iframe
-                      style="border-radius: 12px"
-                      src="https://open.spotify.com/embed/episode/12pAJCluMjwb3UsCfRHkEV?si=a25b29a84f1c4600" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    
-                   
-                  </div>
+                              <div class="iframe-container">
+                                      <iframe
+                                        style="border-radius: 12px"
+                                       src="https://open.spotify.com/embed/episode/2drkjJXqs99mo8tTiCixht?si=a20e459bc7634a50" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                  </div> 
                   </section>
 
                   <section class="podcasts">
@@ -485,13 +457,16 @@ padding: 40px;
 
                      <iframe
                       style="border-radius: 12px"
-                      src="https://open.spotify.com/embed/episode/2drkjJXqs99mo8tTiCixht?si=a20e459bc7634a50" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    
+src="https://open.spotify.com/embed/episode/12pAJCluMjwb3UsCfRHkEV?si=a25b29a84f1c4600" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+
+                      
+                   <div class="iframe-container">
+
                       <iframe
                       style="border-radius: 12px"
                       src="https://open.spotify.com/embed/episode/1CzjVrpRpCtDQjxkBlpiH6?si=4w0tPyjHRUGSTzV8_OzzjA" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                    
-                   
+                                     
                   </div>
             </div>
 </div>
@@ -499,9 +474,7 @@ padding: 40px;
 
             <div class="Casestudy">
             <h1>Returner Stories</h1>
-
             <p>Sharing their insights to unlock the next stage of your career ✨</p>
-          
               <div class="Gallery mt-3">
               <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/451/original/Screenshot_2024-11-02_at_12.30.19.png?1730733728"
                   alt=""
@@ -518,18 +491,15 @@ padding: 40px;
           In 2017, I stepped back from my career due to caring responsibilities, intending to take one year off. 
           That turned into 4.5 years, and I’m grateful to have returned to a senior role in 2022, though I know many aren’t as fortunate.
 
-          
           <br><span class="place"><strong>My Journey: </strong></span><br>
           My confidence had taken a hit, my network had thinned out, and I was nearly ready to 
           settle for a role I was overqualified for just to get back into work. Determined, 
           I began job-hunting at 5:30 a.m. every day! Then Covid-19 hit and lockdown came. 
-          
           In 2021, I found <a href="https://linkuplondon.org/" 
                 target="_blank">Link Up London’s</a> “Re-Launch” 
           program, a lifeline for women wanting to return to work that helped me rebuild my confidence 
           through peer support, coaching, and structured exercises.
           
-    
           <br><span class="place"><strong>Top tips for Returners: </strong></span> <br/>
           ✨ Reflect on your values: this is where I started.<br>
           ✨ Listen: Podcasts offer practical advice and wisdom. <br>
@@ -541,8 +511,7 @@ padding: 40px;
      
         <div class="col-lg-6 text-center text-lg-start mt-5">
           <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/149/706/original/IMG_2304.JPG?1730993494" class=" sandra-pic img-fluid" />
-          
-            
+         
         <br>
         <br>
         </div>
@@ -551,12 +520,10 @@ padding: 40px;
       </div>
       </div>
      
-
       <footer>
         <h1 class="stats"> * Stats taken from the <a href="https://careerreturners.com/career-returners-indicator-2024/" 
                 target="_blank">2024 Career Returners Indicator</a></h1>
-          <p>This landing page is best viewed on a medium to large device. 
-                <br>I hope this website inspires your re-launch 🧡 The next bit of your life is for you. 
+          <p>I hope this website inspires your re-launch 🧡 <br>The next bit of your life is for you. 
                 <br>
                 <br>
                 ~ <strong> Coded by </strong><a href="https://www.linkedin.com/in/sandramercadal/" 
@@ -566,8 +533,6 @@ padding: 40px;
             </p>
               </div>
               </div>
-              </div> </footer>
-</body>
-  
-              <script src="index.js"></script>             
+              </div> </footer><script src="index.js"></script>  
+            </body>                   
 </html>
